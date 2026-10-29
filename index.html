@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>摆渡人：荒原之间</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%230a0c0d'/><circle cx='8' cy='8' r='3' fill='%23d8a463'/></svg>">
+</head>
+<body>
+<div id="app">
+  <canvas id="scene"></canvas>
+
+  <div id="ui">
+    <div id="topbar">
+      <div id="routeTag">未选择</div>
+      <div id="modeTag">第三人称</div>
+    </div>
+
+    <div id="questPanel">
+      <div class="qtitle">当前目标</div>
+      <ul id="questList"></ul>
+    </div>
+
+    <div id="statPanel" class="hidden">
+      <div class="stat" data-stat="integrity">
+        <span class="sname">气息</span>
+        <span class="sbar"><i></i></span>
+        <span class="sval">100</span>
+      </div>
+      <div class="stat" data-stat="anomaly">
+        <span class="sname">报废度</span>
+        <span class="sbar"><i></i></span>
+        <span class="sval">0</span>
+      </div>
+      <div class="stat" data-stat="trust">
+        <span class="sname">信任</span>
+        <span class="sbar"><i></i></span>
+        <span class="sval">0</span>
+      </div>
+    </div>
+
+    <div id="prompt" class="hidden">
+      <span class="key">E</span><span id="promptText"></span>
+    </div>
+
+    <div id="crosshair" class="hidden"></div>
+
+    <div id="dialogue" class="hidden">
+      <div class="dwho"></div>
+      <div class="dtext"></div>
+      <div class="dchoices"></div>
+      <div class="dtimer hidden"><i></i><b></b></div>
+      <div class="dhint"><span class="key">空格</span> 继续　<span class="key">1-3</span> 选择</div>
+    </div>
+
+    <div id="povHint" class="hidden"><span class="key">Tab</span> 另一视角</div>
+
+    <div id="povPanel" class="hidden">
+      <div class="pov-inner">
+        <div class="pov-head">
+          <span class="pov-kicker">此 章 另 一 视 角</span>
+          <button class="pov-close" id="povClose">关闭 ESC</button>
+        </div>
+        <div class="pov-sub" id="povSub"></div>
+        <div class="pov-body">
+          <div class="pov-list" id="povList"></div>
+          <div class="pov-read" id="povRead"></div>
+        </div>
+        <div class="pov-foot">只补内心片段，不改写任何事实。</div>
+      </div>
+    </div>
+
+    <div id="toast" class="hidden"></div>
+
+    <div id="lockHint">
+      <div class="lh-inner">
+        <div class="lh-title">点击画面锁定鼠标</div>
+        <div class="lh-keys">
+          <span><b>WASD</b> 移动</span><span><b>Shift</b> 奔跑</span><span><b>鼠标</b> 转视角</span>
+          <span><b>V</b> 视角切换</span><span><b>E</b> 交互</span><span><b>M</b> 静音</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="menu">
+    <div class="menu-inner">
+      <h1>摆渡人<span class="sep">：</span>荒原之间</h1>
+      <p class="tagline">第一阶段原型 · 非商业学习作品</p>
+      <div class="routes">
+        <button class="route" id="route-dylan" data-route="dylan">
+          <span class="rname">迪伦</span>
+          <span class="rdesc">你不知道自己为什么会在这里。</span>
+          <span class="rnote" data-save="dylan"></span>
+        </button>
+        <button class="route" id="route-tristan" data-route="tristan">
+          <span class="rname">崔斯坦</span>
+          <span class="rdesc">你知道她不知道的事。</span>
+          <span class="rnote" data-save="tristan"></span>
+        </button>
+      </div>
+      <div class="menu-foot">
+        两条路线共用同一片荒原，任务、信息与存档完全独立。
+      </div>
+    </div>
+  </div>
+
+  <div id="loading" class="hidden"><div class="spin"></div><div class="lt">正在生成荒原…</div></div>
+
+  <div id="ending" class="hidden">
+    <div class="end-inner">
+      <div class="end-kicker" id="endKicker">第 一 阶 段 · 完 成</div>
+      <h2 id="endTitle"></h2>
+      <p id="endText"></p>
+      <div class="end-row">
+        <button class="btn" id="endRewind" style="display:none">回到选择之前</button>
+        <button class="btn" id="endMenu">返回主菜单</button>
+        <button class="btn ghost" id="endStay">留在这里</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

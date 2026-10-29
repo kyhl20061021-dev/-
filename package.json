@@ -1,0 +1,24 @@
+{
+  "name": "ferryman-wilderness",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "《摆渡人：荒原之间》网页 3D 交互原型 · 第一阶段",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5178",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5179",
+    "check:isolation": "node scripts/check-isolation.mjs",
+    "test": "node scripts/check-isolation.mjs && node scripts/check-canon.mjs",
+    "check:canon": "node scripts/check-canon.mjs",
+    "check": "node scripts/check-isolation.mjs && node scripts/check-canon.mjs"
+  },
+  "dependencies": {
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^23.11.1",
+    "sharp": "^0.35.5",
+    "vite": "^5.4.11"
+  }
+}

@@ -1,0 +1,7 @@
+# 统一按文本处理；.bat 必须是 CRLF，否则 Windows 下双击可能出错
+* text=auto
+
+*.bat   text eol=crlf
+*.png   binary
+*.jpg   binary
+*.bin   binary

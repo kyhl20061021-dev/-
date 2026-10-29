@@ -1,0 +1,778 @@
+{
+ "SM_BirchTree_01": {
+  "size": {
+   "x": 692.814,
+   "y": 969.314,
+   "z": 640.194
+  },
+  "parts": [
+   {
+    "mat": "Bark",
+    "file": "SM_BirchTree_01__Bark.bin",
+    "vertices": 7686,
+    "indices": 7686,
+    "bytes": 276696
+   },
+   {
+    "mat": "Leaf",
+    "file": "SM_BirchTree_01__Leaf.bin",
+    "vertices": 9270,
+    "indices": 9270,
+    "bytes": 333720
+   }
+  ]
+ },
+ "SM_BirchTree_02": {
+  "size": {
+   "x": 491.401,
+   "y": 995.912,
+   "z": 523.784
+  },
+  "parts": [
+   {
+    "mat": "Bark",
+    "file": "SM_BirchTree_02__Bark.bin",
+    "vertices": 6720,
+    "indices": 6720,
+    "bytes": 241920
+   },
+   {
+    "mat": "Leaf",
+    "file": "SM_BirchTree_02__Leaf.bin",
+    "vertices": 8838,
+    "indices": 8838,
+    "bytes": 318168
+   }
+  ]
+ },
+ "SM_BirchTree_03": {
+  "size": {
+   "x": 439.915,
+   "y": 670.936,
+   "z": 450.178
+  },
+  "parts": [
+   {
+    "mat": "Bark",
+    "file": "SM_BirchTree_03__Bark.bin",
+    "vertices": 6552,
+    "indices": 6552,
+    "bytes": 235872
+   },
+   {
+    "mat": "Leaf",
+    "file": "SM_BirchTree_03__Leaf.bin",
+    "vertices": 7758,
+    "indices": 7758,
+    "bytes": 279288
+   }
+  ]
+ },
+ "SM_OakTree_01": {
+  "size": {
+   "x": 1366.992,
+   "y": 1336.057,
+   "z": 1258.559
+  },
+  "parts": [
+   {
+    "mat": "Bark",
+    "file": "SM_OakTree_01__Bark.bin",
+    "vertices": 19740,
+    "indices": 19740,
+    "bytes": 710640
+   },
+   {
+    "mat": "Leaf",
+    "file": "SM_OakTree_01__Leaf.bin",
+    "vertices": 19854,
+    "indices": 19854,
+    "bytes": 714744
+   }
+  ]
+ },
+ "SM_OakTree_03": {
+  "size": {
+   "x": 858.388,
+   "y": 1289.679,
+   "z": 866.808
+  },
+  "parts": [
+   {
+    "mat": "Bark",
+    "file": "SM_OakTree_03__Bark.bin",
+    "vertices": 16533,
+    "indices": 16533,
+    "bytes": 595188
+   },
+   {
+    "mat": "Leaf",
+    "file": "SM_OakTree_03__Leaf.bin",
+    "vertices": 16452,
+    "indices": 16452,
+    "bytes": 592272
+   }
+  ]
+ },
+ "SM_Leaves_BirchTree_01": {
+  "size": {
+   "x": 49.894,
+   "y": 3.405,
+   "z": 53.742
+  },
+  "parts": [
+   {
+    "mat": "Plants",
+    "file": "SM_Leaves_BirchTree_01__Plants.bin",
+    "vertices": 240,
+    "indices": 240,
+    "bytes": 8640
+   }
+  ]
+ },
+ "SM_Leaves_OakTree_01": {
+  "size": {
+   "x": 110.065,
+   "y": 8.719,
+   "z": 105.734
+  },
+  "parts": [
+   {
+    "mat": "Plants",
+    "file": "SM_Leaves_OakTree_01__Plants.bin",
+    "vertices": 216,
+    "indices": 216,
+    "bytes": 7776
+   }
+  ]
+ },
+ "SM_BirchBush_01": {
+  "size": {
+   "x": 163.854,
+   "y": 140.115,
+   "z": 163.616
+  },
+  "parts": [
+   {
+    "mat": "Bark",
+    "file": "SM_BirchBush_01__Bark.bin",
+    "vertices": 306,
+    "indices": 306,
+    "bytes": 11016
+   },
+   {
+    "mat": "Leaf",
+    "file": "SM_BirchBush_01__Leaf.bin",
+    "vertices": 900,
+    "indices": 900,
+    "bytes": 32400
+   }
+  ]
+ },
+ "SM_BirchBush_02": {
+  "size": {
+   "x": 205.101,
+   "y": 169.645,
+   "z": 230.807
+  },
+  "parts": [
+   {
+    "mat": "Bark",
+    "file": "SM_BirchBush_02__Bark.bin",
+    "vertices": 696,
+    "indices": 696,
+    "bytes": 25056
+   },
+   {
+    "mat": "Leaf",
+    "file": "SM_BirchBush_02__Leaf.bin",
+    "vertices": 1872,
+    "indices": 1872,
+    "bytes": 67392
+   }
+  ]
+ },
+ "SM_BirchBush_03": {
+  "size": {
+   "x": 327.144,
+   "y": 295.422,
+   "z": 300.409
+  },
+  "parts": [
+   {
+    "mat": "Bark",
+    "file": "SM_BirchBush_03__Bark.bin",
+    "vertices": 2250,
+    "indices": 2250,
+    "bytes": 81000
+   },
+   {
+    "mat": "Leaf",
+    "file": "SM_BirchBush_03__Leaf.bin",
+    "vertices": 3732,
+    "indices": 3732,
+    "bytes": 134352
+   }
+  ]
+ },
+ "SM_Grass_01_01": {
+  "size": {
+   "x": 39.845,
+   "y": 33.711,
+   "z": 41.781
+  },
+  "parts": [
+   {
+    "mat": "Grass_01",
+    "file": "SM_Grass_01_01__Grass_01.bin",
+    "vertices": 48,
+    "indices": 48,
+    "bytes": 1728
+   }
+  ]
+ },
+ "SM_Grass_01_02": {
+  "size": {
+   "x": 78.229,
+   "y": 41.617,
+   "z": 76.964
+  },
+  "parts": [
+   {
+    "mat": "Grass_01",
+    "file": "SM_Grass_01_02__Grass_01.bin",
+    "vertices": 168,
+    "indices": 168,
+    "bytes": 6048
+   }
+  ]
+ },
+ "SM_Grass_02_01": {
+  "size": {
+   "x": 55.105,
+   "y": 62.468,
+   "z": 51.585
+  },
+  "parts": [
+   {
+    "mat": "Grass_02",
+    "file": "SM_Grass_02_01__Grass_02.bin",
+    "vertices": 96,
+    "indices": 96,
+    "bytes": 3456
+   }
+  ]
+ },
+ "SM_Grass_02_02": {
+  "size": {
+   "x": 56.442,
+   "y": 77.923,
+   "z": 51.678
+  },
+  "parts": [
+   {
+    "mat": "Grass_02",
+    "file": "SM_Grass_02_02__Grass_02.bin",
+    "vertices": 144,
+    "indices": 144,
+    "bytes": 5184
+   }
+  ]
+ },
+ "SM_Grass_03_01": {
+  "size": {
+   "x": 51.053,
+   "y": 57.525,
+   "z": 50.485
+  },
+  "parts": [
+   {
+    "mat": "Grass_03",
+    "file": "SM_Grass_03_01__Grass_03.bin",
+    "vertices": 48,
+    "indices": 48,
+    "bytes": 1728
+   }
+  ]
+ },
+ "SM_Grass_03_02": {
+  "size": {
+   "x": 67.234,
+   "y": 63.008,
+   "z": 63.88
+  },
+  "parts": [
+   {
+    "mat": "Grass_03",
+    "file": "SM_Grass_03_02__Grass_03.bin",
+    "vertices": 132,
+    "indices": 132,
+    "bytes": 4752
+   }
+  ]
+ },
+ "SM_Flower_01_01": {
+  "size": {
+   "x": 35.57,
+   "y": 65.407,
+   "z": 45.099
+  },
+  "parts": [
+   {
+    "mat": "Flowers_01",
+    "file": "SM_Flower_01_01__Flowers_01.bin",
+    "vertices": 288,
+    "indices": 288,
+    "bytes": 10368
+   }
+  ]
+ },
+ "SM_Flower_02_01": {
+  "size": {
+   "x": 44.511,
+   "y": 65.407,
+   "z": 36.063
+  },
+  "parts": [
+   {
+    "mat": "Flowers_01",
+    "file": "SM_Flower_02_01__Flowers_01.bin",
+    "vertices": 288,
+    "indices": 288,
+    "bytes": 10368
+   }
+  ]
+ },
+ "SM_Flower_03_01": {
+  "size": {
+   "x": 32.534,
+   "y": 63.151,
+   "z": 44.55
+  },
+  "parts": [
+   {
+    "mat": "Flowers_01",
+    "file": "SM_Flower_03_01__Flowers_01.bin",
+    "vertices": 252,
+    "indices": 252,
+    "bytes": 9072
+   }
+  ]
+ },
+ "SM_Flower_05_01": {
+  "size": {
+   "x": 42.705,
+   "y": 65.92,
+   "z": 37.56
+  },
+  "parts": [
+   {
+    "mat": "Flowers_02",
+    "file": "SM_Flower_05_01__Flowers_02.bin",
+    "vertices": 252,
+    "indices": 252,
+    "bytes": 9072
+   }
+  ]
+ },
+ "SM_Flower_08_01": {
+  "size": {
+   "x": 28.665,
+   "y": 58.5,
+   "z": 37.043
+  },
+  "parts": [
+   {
+    "mat": "Flowers_02",
+    "file": "SM_Flower_08_01__Flowers_02.bin",
+    "vertices": 252,
+    "indices": 252,
+    "bytes": 9072
+   }
+  ]
+ },
+ "SM_CoverPlant_01": {
+  "size": {
+   "x": 62.33,
+   "y": 23.749,
+   "z": 62.051
+  },
+  "parts": [
+   {
+    "mat": "Cover Plants",
+    "file": "SM_CoverPlant_01__CoverPlants.bin",
+    "vertices": 120,
+    "indices": 120,
+    "bytes": 4320
+   }
+  ]
+ },
+ "SM_CoverPlant_02": {
+  "size": {
+   "x": 53.169,
+   "y": 31.287,
+   "z": 52.448
+  },
+  "parts": [
+   {
+    "mat": "Cover Plants",
+    "file": "SM_CoverPlant_02__CoverPlants.bin",
+    "vertices": 144,
+    "indices": 144,
+    "bytes": 5184
+   }
+  ]
+ },
+ "SM_CoverPlant_03": {
+  "size": {
+   "x": 62.33,
+   "y": 23.749,
+   "z": 62.051
+  },
+  "parts": [
+   {
+    "mat": "Cover Plants",
+    "file": "SM_CoverPlant_03__CoverPlants.bin",
+    "vertices": 132,
+    "indices": 132,
+    "bytes": 4752
+   }
+  ]
+ },
+ "SM_Plant_01_01": {
+  "size": {
+   "x": 33.637,
+   "y": 86.677,
+   "z": 29.275
+  },
+  "parts": [
+   {
+    "mat": "Plants_01",
+    "file": "SM_Plant_01_01__Plants_01.bin",
+    "vertices": 276,
+    "indices": 276,
+    "bytes": 9936
+   }
+  ]
+ },
+ "SM_Plant_02_01": {
+  "size": {
+   "x": 31.184,
+   "y": 84.357,
+   "z": 27.409
+  },
+  "parts": [
+   {
+    "mat": "Plants_01",
+    "file": "SM_Plant_02_01__Plants_01.bin",
+    "vertices": 300,
+    "indices": 300,
+    "bytes": 10800
+   }
+  ]
+ },
+ "SM_Rock_01": {
+  "size": {
+   "x": 578.594,
+   "y": 294.502,
+   "z": 547.053
+  },
+  "parts": [
+   {
+    "mat": "Props",
+    "file": "SM_Rock_01__Props.bin",
+    "vertices": 9432,
+    "indices": 9432,
+    "bytes": 339552
+   }
+  ]
+ },
+ "SM_Rock_02": {
+  "size": {
+   "x": 533.781,
+   "y": 211.49,
+   "z": 491.384
+  },
+  "parts": [
+   {
+    "mat": "Props",
+    "file": "SM_Rock_02__Props.bin",
+    "vertices": 10962,
+    "indices": 10962,
+    "bytes": 394632
+   }
+  ]
+ },
+ "SM_Rock_03": {
+  "size": {
+   "x": 447.902,
+   "y": 257.734,
+   "z": 371.627
+  },
+  "parts": [
+   {
+    "mat": "Props",
+    "file": "SM_Rock_03__Props.bin",
+    "vertices": 10026,
+    "indices": 10026,
+    "bytes": 360936
+   }
+  ]
+ },
+ "SM_Rock_04": {
+  "size": {
+   "x": 358.596,
+   "y": 231.56,
+   "z": 300.943
+  },
+  "parts": [
+   {
+    "mat": "Props",
+    "file": "SM_Rock_04__Props.bin",
+    "vertices": 9492,
+    "indices": 9492,
+    "bytes": 341712
+   }
+  ]
+ },
+ "SM_Rock_05": {
+  "size": {
+   "x": 283.571,
+   "y": 161.611,
+   "z": 265.792
+  },
+  "parts": [
+   {
+    "mat": "Props",
+    "file": "SM_Rock_05__Props.bin",
+    "vertices": 7038,
+    "indices": 7038,
+    "bytes": 253368
+   }
+  ]
+ },
+ "SM_Rock_06": {
+  "size": {
+   "x": 123.508,
+   "y": 52.962,
+   "z": 123.172
+  },
+  "parts": [
+   {
+    "mat": "Props",
+    "file": "SM_Rock_06__Props.bin",
+    "vertices": 1362,
+    "indices": 1362,
+    "bytes": 49032
+   }
+  ]
+ },
+ "SM_RockGroup_01": {
+  "size": {
+   "x": 44.835,
+   "y": 15.39,
+   "z": 45.45
+  },
+  "parts": [
+   {
+    "mat": "Props",
+    "file": "SM_RockGroup_01__Props.bin",
+    "vertices": 540,
+    "indices": 540,
+    "bytes": 19440
+   }
+  ]
+ },
+ "SM_RockGroup_02": {
+  "size": {
+   "x": 74.27,
+   "y": 18.107,
+   "z": 106.903
+  },
+  "parts": [
+   {
+    "mat": "Props",
+    "file": "SM_RockGroup_02__Props.bin",
+    "vertices": 1419,
+    "indices": 1419,
+    "bytes": 51084
+   }
+  ]
+ },
+ "SM_Mushroom_01": {
+  "size": {
+   "x": 9.563,
+   "y": 33.4,
+   "z": 9.892
+  },
+  "parts": [
+   {
+    "mat": "Mushroom",
+    "file": "SM_Mushroom_01__Mushroom.bin",
+    "vertices": 450,
+    "indices": 450,
+    "bytes": 16200
+   }
+  ]
+ },
+ "SM_Mushroom_02": {
+  "size": {
+   "x": 13.075,
+   "y": 44.672,
+   "z": 13.261
+  },
+  "parts": [
+   {
+    "mat": "Mushroom",
+    "file": "SM_Mushroom_02__Mushroom.bin",
+    "vertices": 780,
+    "indices": 780,
+    "bytes": 28080
+   }
+  ]
+ },
+ "SM_Mushroom_03": {
+  "size": {
+   "x": 22.041,
+   "y": 51.731,
+   "z": 21.093
+  },
+  "parts": [
+   {
+    "mat": "Mushroom",
+    "file": "SM_Mushroom_03__Mushroom.bin",
+    "vertices": 1260,
+    "indices": 1260,
+    "bytes": 45360
+   }
+  ]
+ },
+ "SM_Mushroom_04": {
+  "size": {
+   "x": 33.572,
+   "y": 51.81,
+   "z": 32.192
+  },
+  "parts": [
+   {
+    "mat": "Mushroom",
+    "file": "SM_Mushroom_04__Mushroom.bin",
+    "vertices": 2490,
+    "indices": 2490,
+    "bytes": 89640
+   }
+  ]
+ },
+ "SM_Log_01": {
+  "size": {
+   "x": 410.728,
+   "y": 109.295,
+   "z": 124.631
+  },
+  "parts": [
+   {
+    "mat": "Props",
+    "file": "SM_Log_01__Props.bin",
+    "vertices": 11913,
+    "indices": 11913,
+    "bytes": 428868
+   }
+  ]
+ },
+ "SM_Stump_01": {
+  "size": {
+   "x": 184.724,
+   "y": 131.842,
+   "z": 144.861
+  },
+  "parts": [
+   {
+    "mat": "Props",
+    "file": "SM_Stump_01__Props.bin",
+    "vertices": 4833,
+    "indices": 4833,
+    "bytes": 173988
+   }
+  ]
+ },
+ "SM_Plank_01": {
+  "size": {
+   "x": 193.926,
+   "y": 7.71,
+   "z": 21.522
+  },
+  "parts": [
+   {
+    "mat": "Props",
+    "file": "SM_Plank_01__Props.bin",
+    "vertices": 300,
+    "indices": 300,
+    "bytes": 10800
+   }
+  ]
+ },
+ "SM_Plank_Group_01": {
+  "size": {
+   "x": 189.263,
+   "y": 15.687,
+   "z": 184.363
+  },
+  "parts": [
+   {
+    "mat": "Props",
+    "file": "SM_Plank_Group_01__Props.bin",
+    "vertices": 4032,
+    "indices": 4032,
+    "bytes": 145152
+   }
+  ]
+ },
+ "SM_Fence_01": {
+  "size": {
+   "x": 245.492,
+   "y": 131.414,
+   "z": 16.178
+  },
+  "parts": [
+   {
+    "mat": "Plank",
+    "file": "SM_Fence_01__Plank.bin",
+    "vertices": 2856,
+    "indices": 2856,
+    "bytes": 102816
+   }
+  ]
+ },
+ "SM_Hill_01": {
+  "size": {
+   "x": 51973.832,
+   "y": 4332.896,
+   "z": 58571.52
+  },
+  "parts": [
+   {
+    "mat": "Material",
+    "file": "SM_Hill_01__Material.bin",
+    "vertices": 6534,
+    "indices": 6534,
+    "bytes": 235224
+   }
+  ]
+ },
+ "SM_Mountain_01": {
+  "size": {
+   "x": 162238.563,
+   "y": 60485.888,
+   "z": 157644.461
+  },
+  "parts": [
+   {
+    "mat": "Material",
+    "file": "SM_Mountain_01__Material.bin",
+    "vertices": 41472,
+    "indices": 41472,
+    "bytes": 1492992
+   }
+  ]
+ }
+}
